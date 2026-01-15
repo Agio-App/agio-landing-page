@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import AgioHeroBg from '../images/agio_hero_bg.png';
 
 const focusWaitlistEmail = () => {
   const waitlist = document.getElementById('waitlist');
@@ -26,7 +27,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={'images/agio_hero_bg.png'} 
+          src={AgioHeroBg} 
           alt="Agio Abstract Background" 
           className="w-full h-full object-cover object-center"
         />
