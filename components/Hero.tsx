@@ -1,0 +1,105 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
+
+const focusWaitlistEmail = () => {
+  const waitlist = document.getElementById('waitlist');
+  if (waitlist) {
+    waitlist.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  if (window.location.hash !== '#waitlist') {
+    window.history.pushState(null, '', '#waitlist');
+  }
+
+  window.requestAnimationFrame(() => {
+    const input = document.getElementById('waitlist-email') as HTMLInputElement | null;
+    if (input) {
+      input.focus({ preventScroll: true });
+    }
+  });
+};
+
+const Hero: React.FC = () => {
+  return (
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src={'images/agio_hero_bg.png'} 
+          alt="Agio Abstract Background" 
+          className="w-full h-full object-cover object-center"
+        />
+        {/* Gradient Overlay for Text Readability */}
+        <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/40 to-transparent opacity-90"></div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center">
+        
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="mb-6"
+        >
+             <span className="inline-block py-1 px-3 rounded-full bg-charcoal/60 backdrop-blur-sm border border-white/10 text-xs font-medium tracking-wider text-mint uppercase mb-4 shadow-[0_4px_20px_rgba(0,0,0,0.35)]">
+                Redefining Memory
+            </span>
+        </motion.div>
+
+        <motion.h1 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+          className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.1] mb-6 tracking-tight"
+        >
+          The premium in <br />
+          <span className="italic text-mint/90">your memory.</span>
+        </motion.h1>
+
+        <motion.p 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="font-sans text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed mb-10"
+        >
+          Where life’s finest moments meet intelligent design. Agio redefines how you capture, curate, and relive what truly matters.
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
+          className="flex flex-col items-center"
+        >
+          <button
+            className="group relative flex items-center gap-3 px-8 py-4 bg-mint text-charcoal rounded-full font-medium text-lg transition-all duration-300 hover:bg-mint-hover hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(168,230,207,0.3)]"
+            onClick={focusWaitlistEmail}
+            type="button"
+          >
+            Join the Waitlist
+            <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+          </button>
+          
+          <p className="mt-4 text-sm text-gray-500 font-light">
+            Be among the first to experience Agio — crafted for those who value moments as much as memories.
+          </p>
+        </motion.div>
+      </div>
+
+      {/* Decorative Scroll Indicator */}
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1 }}
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+      >
+        <span className="text-[10px] uppercase tracking-widest text-gray-500">Scroll</span>
+        <div className="w-[1px] h-12 bg-gradient-to-b from-gray-500 to-transparent"></div>
+      </motion.div>
+    </section>
+  );
+};
+
+export default Hero;
