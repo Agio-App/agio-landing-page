@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Agio | The premium in your memory"
+  },
+  "nav": {
+    "features": "Features",
+    "vision": "Vision",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "logoAlt": "Agio Logo"
+  },
+  "hero": {
+    "badge": "Redefining Memory",
+    "titleLine1": "The premium in",
+    "titleLine2": "your memory.",
+    "body": "Where life's finest moments meet intelligent design. Agio redefines how you capture, curate, and relive what truly matters.",
+    "cta": "Join the Waitlist",
+    "subtext": "Be among the first to experience Agio — crafted for those who value moments as much as memories.",
+    "scroll": "Scroll",
+    "backgroundAlt": "Agio Abstract Background"
+  },
+  "features": {
+    "headline": "Designed to remember —",
+    "headlineEmphasis": "beautifully.",
+    "body": "Agio isn't another storage app. It's an intuitive memory companion built to organise, visualise, and protect the stories that shape you. Using smart categorisation and elegant design, Agio transforms your digital memories into a seamless, meaningful archive.",
+    "link": "Reserve your spot early",
+    "cards": {
+      "intelligent": {
+        "title": "Intelligent Memory Engine",
+        "description": "Your memories, organised automatically. Agio uses advanced recognition technology to tag, group, and surface what matters most — effortlessly."
+      },
+      "discovery": {
+        "title": "AI-Powered Discovery",
+        "description": "Rediscover forgotten moments. Agio's AI surfaces connections, recreates context, and helps you relive memories you'd forgotten you had."
+      },
+      "crafted": {
+        "title": "Crafted for Every Moment",
+        "description": "From candid shots to curated collections, Agio adapts to how you remember. Beautiful visualisations and intuitive tools make managing memories effortless."
+      }
+    }
+  },
+  "vision": {
+    "label": "Vision",
+    "headline": "Preserve the moments that matter most.",
+    "body": "Agio is designed to be a living archive for your most meaningful memories. From milestones to quiet in-between moments, our vision is to make remembering feel effortless, secure, and beautifully human."
+  },
+  "footer": {
+    "iconAlt": "Agio Icon",
+    "headlineLine1": "A better way to remember",
+    "headlineLine2": "is coming.",
+    "body": "Join others who value simplicity, privacy, and beauty in their digital lives.",
+    "emailPlaceholder": "Enter your email",
+    "cta": "Join the Waitlist",
+    "disclaimer": "No spam. Only early access and meaningful updates.",
+    "languageLabel": "Language",
+    "copyright": "© {{year}} Agio. All rights reserved.",
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "contact": "Contact"
+    }
+  },
+  "thankYou": {
+    "title": "You're on the list.",
+    "body": "Thanks for joining the Agio waitlist. We'll reach out with early access and updates soon.",
+    "backLink": "Back to Agio"
+  }
+}

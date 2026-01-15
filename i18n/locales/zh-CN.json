@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Agio | 让你的记忆尽显高级感"
+  },
+  "nav": {
+    "features": "功能",
+    "vision": "愿景",
+    "openMenu": "打开导航菜单",
+    "closeMenu": "关闭导航菜单",
+    "logoAlt": "Agio 标志"
+  },
+  "hero": {
+    "badge": "重新定义记忆",
+    "titleLine1": "让你的记忆",
+    "titleLine2": "尽显高级感。",
+    "body": "当人生中最珍贵的瞬间遇见智能设计。Agio 重新定义你如何记录、整理并重温真正重要的时刻。",
+    "cta": "加入等候名单",
+    "subtext": "抢先体验 Agio —— 为重视瞬间与记忆的人打造。",
+    "scroll": "向下滚动",
+    "backgroundAlt": "Agio 抽象背景"
+  },
+  "features": {
+    "headline": "为记忆而生 —",
+    "headlineEmphasis": "优雅呈现。",
+    "body": "Agio 不只是另一款存储应用。它是直观的记忆伙伴，帮助你整理、可视化并守护塑造你的故事。通过智能分类与优雅设计，Agio 将数字记忆转化为顺畅而有意义的档案。",
+    "link": "提前预留名额",
+    "cards": {
+      "intelligent": {
+        "title": "智能记忆引擎",
+        "description": "记忆自动整理。Agio 借助先进识别技术，为重要内容打标签、分组并优先呈现 — 轻松完成。"
+      },
+      "discovery": {
+        "title": "AI 驱动的发现",
+        "description": "重拾被遗忘的瞬间。Agio 的 AI 挖掘关联、还原情境，帮助你重温那些以为遗忘的记忆。"
+      },
+      "crafted": {
+        "title": "为每个时刻打造",
+        "description": "从随手拍到精心整理的合集，Agio 适配你的记忆方式。精美的可视化与直观工具让管理变得轻松。"
+      }
+    }
+  },
+  "vision": {
+    "label": "愿景",
+    "headline": "珍藏最重要的瞬间。",
+    "body": "Agio 被设计为记录意义非凡记忆的鲜活档案。从重要里程碑到安静的日常片段，我们的愿景是让回忆变得轻松、安全且充满温度。"
+  },
+  "footer": {
+    "iconAlt": "Agio 图标",
+    "headlineLine1": "更好的记忆方式",
+    "headlineLine2": "即将到来。",
+    "body": "加入同样重视简洁、隐私与美感的用户。",
+    "emailPlaceholder": "输入你的邮箱",
+    "cta": "加入等候名单",
+    "disclaimer": "不发垃圾邮件。仅提供早期访问和重要更新。",
+    "languageLabel": "语言",
+    "copyright": "© {{year}} Agio. 保留所有权利。",
+    "links": {
+      "privacy": "隐私",
+      "terms": "条款",
+      "contact": "联系"
+    }
+  },
+  "thankYou": {
+    "title": "你已在名单中。",
+    "body": "感谢加入 Agio 等候名单。我们将很快提供早期访问和更新。",
+    "backLink": "返回 Agio"
+  }
+}

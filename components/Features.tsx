@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles, Brain, Layers, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const focusWaitlistEmail = () => {
   const waitlist = document.getElementById('waitlist');
@@ -45,6 +46,8 @@ const FeatureCard: React.FC<{
 );
 
 const Features: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="features" className="py-24 md:py-32 px-6 md:px-12 bg-charcoal relative overflow-hidden">
       
@@ -60,11 +63,11 @@ const Features: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-             <h2 className="font-serif text-4xl md:text-6xl text-white mb-6">
-              Designed to remember — <span className="text-mint italic">beautifully.</span>
+            <h2 className="font-serif text-4xl md:text-6xl text-white mb-6">
+              {t('features.headline')} <span className="text-mint italic">{t('features.headlineEmphasis')}</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-xl">
-              Agio isn’t another storage app. It’s an intuitive memory companion built to organise, visualise, and protect the stories that shape you. Using smart categorisation and elegant design, Agio transforms your digital memories into a seamless, meaningful archive.
+              {t('features.body')}
             </p>
             <a
               href="#waitlist"
@@ -74,43 +77,43 @@ const Features: React.FC = () => {
                 focusWaitlistEmail();
               }}
             >
-              Reserve your spot early <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              {t('features.link')} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>
           
-          <motion.div
+          {/* <motion.div
              initial={{ opacity: 0, scale: 0.95 }}
              whileInView={{ opacity: 1, scale: 1 }}
              viewport={{ once: true }}
              transition={{ duration: 0.8 }}
              className="relative"
           >
-             {/* Abstract representation of the UI or the provided sample image */}
+             {/* Abstract representation of the UI or the provided sample image
              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
                 <img src="card_post_premium.png" alt="Agio Interface Preview" className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 to-transparent pointer-events-none"></div>
              </div>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* Feature Cards Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           <FeatureCard
             icon={<Brain className="w-8 h-8" />}
-            title="Intelligent Memory Engine"
-            description="Your memories, organised automatically. Agio uses advanced recognition technology to tag, group, and surface what matters most — effortlessly."
+            title={t('features.cards.intelligent.title')}
+            description={t('features.cards.intelligent.description')}
             delay={0.1}
           />
           <FeatureCard
             icon={<Sparkles className="w-8 h-8" />}
-            title="AI-Powered Discovery"
-            description="Rediscover forgotten moments. Agio's AI surfaces connections, recreates context, and helps you relive memories you'd forgotten you had."
+            title={t('features.cards.discovery.title')}
+            description={t('features.cards.discovery.description')}
             delay={0.3}
           />
           <FeatureCard
             icon={<Layers className="w-8 h-8" />}
-            title="Crafted for Every Moment"
-            description="From candid shots to curated collections, Agio adapts to how you remember. Beautiful visualisations and intuitive tools make managing memories effortless."
+            title={t('features.cards.crafted.title')}
+            description={t('features.cards.crafted.description')}
             delay={0.5}
           />
         </div>
