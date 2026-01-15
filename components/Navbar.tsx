@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Logo from '../images/logo_light.svg?react';
+import { useTranslation } from 'react-i18next';
 
 const Navbar: React.FC = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const scrollLockY = useRef(0);
@@ -78,16 +80,16 @@ const Navbar: React.FC = () => {
           <Logo
             className="h-8 md:h-10 w-auto text-white"
             role="img"
-            aria-label="Agio Logo"
+            aria-label={t('nav.logoAlt')}
           />
         </div>
 
         <div className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-sm font-medium text-white hover:text-mint transition-colors duration-300">
-            Features
+            {t('nav.features')}
           </a>
           <a href="#vision" className="text-sm font-medium text-white hover:text-mint transition-colors duration-300">
-            Vision
+            {t('nav.vision')}
           </a>
           {/* <button className="px-5 py-2 rounded-full border border-white/20 text-sm font-medium text-white hover:bg-white hover:text-charcoal transition-all duration-300">
             Login
@@ -98,7 +100,7 @@ const Navbar: React.FC = () => {
         <button
           type="button"
           className="md:hidden text-white p-2 rounded-full border border-white/10 hover:border-mint/40 hover:text-mint transition-colors duration-300"
-          aria-label={isMobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-label={isMobileMenuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
           aria-expanded={isMobileMenuOpen}
           aria-controls="mobile-nav"
           onClick={() => setIsMobileMenuOpen((open) => !open)}
@@ -141,14 +143,14 @@ const Navbar: React.FC = () => {
                 className="text-2xl font-medium hover:text-mint transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Features
+                {t('nav.features')}
               </a>
               <a
                 href="#vision"
                 className="text-2xl font-medium hover:text-mint transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Vision
+                {t('nav.vision')}
               </a>
             </motion.div>
           </motion.div>

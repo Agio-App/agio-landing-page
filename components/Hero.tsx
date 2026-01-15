@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import AgioHeroBg from '../images/agio_hero_bg.png';
+import { useTranslation } from 'react-i18next';
 
 const focusWaitlistEmail = () => {
   const waitlist = document.getElementById('waitlist');
@@ -22,13 +23,15 @@ const focusWaitlistEmail = () => {
 };
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
           src={AgioHeroBg} 
-          alt="Agio Abstract Background" 
+          alt={t('hero.backgroundAlt')}
           className="w-full h-full object-cover object-center"
         />
         {/* Gradient Overlay for Text Readability */}
@@ -45,7 +48,7 @@ const Hero: React.FC = () => {
             className="mb-6"
         >
              <span className="inline-block py-1 px-3 rounded-full bg-charcoal/60 backdrop-blur-sm border border-white/10 text-xs font-medium tracking-wider text-mint uppercase mb-4 shadow-[0_4px_20px_rgba(0,0,0,0.35)]">
-                Redefining Memory
+                {t('hero.badge')}
             </span>
         </motion.div>
 
@@ -55,8 +58,8 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.1] mb-6 tracking-tight"
         >
-          The premium in <br />
-          <span className="italic text-mint/90">your memory.</span>
+          {t('hero.titleLine1')} <br />
+          <span className="italic text-mint/90">{t('hero.titleLine2')}</span>
         </motion.h1>
 
         <motion.p 
@@ -65,7 +68,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="font-sans text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed mb-10"
         >
-          Where life’s finest moments meet intelligent design. Agio redefines how you capture, curate, and relive what truly matters.
+          {t('hero.body')}
         </motion.p>
 
         <motion.div
@@ -79,12 +82,12 @@ const Hero: React.FC = () => {
             onClick={focusWaitlistEmail}
             type="button"
           >
-            Join the Waitlist
+            {t('hero.cta')}
             <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
           </button>
           
           <p className="mt-4 text-sm text-gray-500 font-light">
-            Be among the first to experience Agio — crafted for those who value moments as much as memories.
+            {t('hero.subtext')}
           </p>
         </motion.div>
       </div>
@@ -96,7 +99,7 @@ const Hero: React.FC = () => {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-[10px] uppercase tracking-widest text-gray-500">Scroll</span>
+        <span className="text-[10px] uppercase tracking-widest text-gray-500">{t('hero.scroll')}</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-gray-500 to-transparent"></div>
       </motion.div>
     </section>

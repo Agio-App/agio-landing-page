@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Agio | Das Premium in deiner Erinnerung"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "vision": "Vision",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen",
+    "logoAlt": "Agio-Logo"
+  },
+  "hero": {
+    "badge": "Erinnerung neu definiert",
+    "titleLine1": "Das Premium in",
+    "titleLine2": "deiner Erinnerung.",
+    "body": "Wo die schönsten Momente des Lebens auf intelligentes Design treffen. Agio definiert neu, wie du festhältst, kuratierst und das erlebst, was wirklich zählt.",
+    "cta": "Zur Warteliste",
+    "subtext": "Sei unter den Ersten, die Agio erleben — gemacht für Menschen, die Momente genauso schätzen wie Erinnerungen.",
+    "scroll": "Scrollen",
+    "backgroundAlt": "Agio abstrakter Hintergrund"
+  },
+  "features": {
+    "headline": "Entwickelt, um zu erinnern —",
+    "headlineEmphasis": "wunderschön.",
+    "body": "Agio ist nicht nur eine weitere Speicher-App. Es ist ein intuitiver Erinnerungspartner, der die Geschichten, die dich prägen, organisiert, visualisiert und schützt. Mit intelligenter Kategorisierung und elegantem Design verwandelt Agio deine digitalen Erinnerungen in ein nahtloses, bedeutungsvolles Archiv.",
+    "link": "Sichere dir früh deinen Platz",
+    "cards": {
+      "intelligent": {
+        "title": "Intelligenter Erinnerungskern",
+        "description": "Deine Erinnerungen, automatisch organisiert. Agio nutzt fortschrittliche Erkennungstechnologie, um das Wichtigste zu taggen, zu gruppieren und hervorzuheben — mühelos."
+      },
+      "discovery": {
+        "title": "KI-gestützte Entdeckung",
+        "description": "Entdecke vergessene Momente wieder. Agios KI findet Zusammenhänge, stellt Kontext her und hilft dir, Erinnerungen wiederzuerleben, die du längst vergessen hattest."
+      },
+      "crafted": {
+        "title": "Für jeden Moment gemacht",
+        "description": "Von spontanen Aufnahmen bis zu kuratierten Sammlungen passt sich Agio deiner Art des Erinnerns an. Schöne Visualisierungen und intuitive Tools machen das Verwalten mühelos."
+      }
+    }
+  },
+  "vision": {
+    "label": "Vision",
+    "headline": "Bewahre die Momente, die am meisten zählen.",
+    "body": "Agio ist als lebendiges Archiv für deine bedeutungsvollsten Erinnerungen konzipiert. Von Meilensteinen bis zu stillen Zwischenmomenten ist es unsere Vision, Erinnern mühelos, sicher und schön menschlich zu machen."
+  },
+  "footer": {
+    "iconAlt": "Agio-Symbol",
+    "headlineLine1": "Ein besserer Weg, sich zu erinnern",
+    "headlineLine2": "kommt bald.",
+    "body": "Schließe dich anderen an, die Einfachheit, Privatsphäre und Schönheit in ihrem digitalen Leben schätzen.",
+    "emailPlaceholder": "Gib deine E-Mail ein",
+    "cta": "Zur Warteliste",
+    "disclaimer": "Kein Spam. Nur früher Zugang und sinnvolle Updates.",
+    "languageLabel": "Sprache",
+    "copyright": "© {{year}} Agio. Alle Rechte vorbehalten.",
+    "links": {
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "contact": "Kontakt"
+    }
+  },
+  "thankYou": {
+    "title": "Du stehst auf der Liste.",
+    "body": "Danke, dass du dich auf die Agio-Warteliste gesetzt hast. Wir melden uns bald mit frühem Zugang und Updates.",
+    "backLink": "Zurück zu Agio"
+  }
+}
