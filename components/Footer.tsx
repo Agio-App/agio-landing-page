@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
           </p>
 
           <form
-            className="max-w-lg mx-auto flex flex-col sm:flex-row gap-4 mb-4"
+            className="max-w-xl mx-auto flex flex-col sm:flex-row gap-4 mb-4"
             name="waitlist"
             method="POST"
             data-netlify="true"

@@ -1,6 +1,7 @@
 {
   "meta": {
-    "title": "Agio | O premium na sua memória"
+    "title": "Agio | Segundo cérebro com IA local-first para notas (PKM)",
+    "description": "Agio é um segundo cérebro com IA local-first para notas. Autoformatação, geração de títulos, extração de hashtags e categorização inteligente—feito para fundadores e profissionais do conhecimento."
   },
   "nav": {
     "features": "Recursos",
@@ -10,48 +11,48 @@
     "logoAlt": "Logo da Agio"
   },
   "hero": {
-    "badge": "Redefinindo a memória",
-    "titleLine1": "O premium na",
-    "titleLine2": "sua memória.",
-    "body": "Onde os melhores momentos da vida encontram o design inteligente. A Agio redefine como você captura, organiza e revive o que realmente importa.",
-    "cta": "Entrar na lista de espera",
-    "subtext": "Seja um dos primeiros a experimentar a Agio — feita para quem valoriza momentos tanto quanto memórias.",
+    "badge": "Segundo cérebro local-first",
+    "titleLine1": "Um segundo cérebro que",
+    "titleLine2": "não vira trabalho.",
+    "body": "Feito para fundadores e profissionais do conhecimento. Capture notas rápido—Agio usa IA para formatar, gerar títulos, extrair hashtags e categorizar automaticamente, para seu sistema ficar organizado sem manutenção.",
+    "cta": "Garanta acesso antecipado",
+    "subtext": "Local-first por design. Sem burocracia—só clareza. Entre na lista de espera para ter acesso no lançamento.",
     "scroll": "Role",
     "backgroundAlt": "Fundo abstrato da Agio"
   },
   "features": {
-    "headline": "Feito para lembrar —",
-    "headlineEmphasis": "com beleza.",
-    "body": "A Agio não é apenas mais um app de armazenamento. É uma companheira de memória intuitiva criada para organizar, visualizar e proteger as histórias que moldam você. Com categorização inteligente e design elegante, a Agio transforma suas memórias digitais em um arquivo fluido e significativo.",
-    "link": "Garanta seu lugar cedo",
+    "headline": "Capture uma vez —",
+    "headlineEmphasis": "a Agio organiza.",
+    "body": "A maioria dos apps de notas é abandonada quando a manutenção começa. A Agio é um segundo cérebro com IA que transforma notas bagunçadas em uma base de conhecimento limpa e pesquisável: autoformatação, geração de títulos, extração de hashtags e categorização inteligente—na hora.",
+    "link": "Garanta acesso antecipado",
     "cards": {
       "intelligent": {
-        "title": "Motor de Memória Inteligente",
-        "description": "Suas memórias, organizadas automaticamente. A Agio usa tecnologia avançada de reconhecimento para marcar, agrupar e destacar o que mais importa — sem esforço."
+        "title": "Notas sem manutenção",
+        "description": "Escreva do seu jeito. A Agio formata sua nota, gera um título claro e extrai hashtags automaticamente—para você nunca perder tempo “arrumando”."
       },
       "discovery": {
-        "title": "Descoberta com IA",
-        "description": "Redescubra momentos esquecidos. A IA da Agio encontra conexões, recria o contexto e ajuda você a reviver memórias que havia esquecido."
+        "title": "Encontre qualquer coisa, rápido",
+        "description": "Pesquise no seu segundo cérebro e traga de volta o contexto quando precisar—decisões, ideias e próximos passos em vários projetos."
       },
       "crafted": {
-        "title": "Feito para cada momento",
-        "description": "De fotos espontâneas a coleções curadas, a Agio se adapta a como você se lembra. Visualizações bonitas e ferramentas intuitivas tornam a gestão das memórias simples."
+        "title": "Local-first, feito para foco",
+        "description": "Seu conhecimento fica no seu dispositivo por padrão—rápido, privado e sempre disponível. (Links e captura de vídeo via extensão em breve.)"
       }
     }
   },
   "vision": {
     "label": "Visão",
-    "headline": "Preserve os momentos que mais importam.",
-    "body": "A Agio foi pensada como um arquivo vivo para suas memórias mais significativas. De marcos importantes a pequenos intervalos do dia a dia, nossa visão é tornar o ato de lembrar fácil, seguro e profundamente humano."
+    "headline": "Um segundo cérebro que você ainda vai usar daqui a seis meses.",
+    "body": "A Agio foi criada para tirar o “imposto da manutenção” que acaba com a maioria dos sistemas de PKM. Capture rápido, fique organizado automaticamente e mantenha seu conhecimento útil ao longo do tempo—sem ficar cuidando o tempo todo."
   },
   "footer": {
     "iconAlt": "Ícone da Agio",
-    "headlineLine1": "Uma maneira melhor de lembrar",
-    "headlineLine2": "está chegando.",
-    "body": "Junte-se a quem valoriza simplicidade, privacidade e beleza na vida digital.",
+    "headlineLine1": "Garanta acesso antecipado a",
+    "headlineLine2": "um segundo cérebro local-first.",
+    "body": "Junte-se a fundadores e profissionais do conhecimento que querem organização com IA sem o custo da manutenção.",
     "emailPlaceholder": "Digite seu e-mail",
-    "cta": "Entrar na lista de espera",
-    "disclaimer": "Sem spam. Apenas acesso antecipado e atualizações relevantes.",
+    "cta": "Garanta acesso antecipado",
+    "disclaimer": "Sem spam. Só acesso no lançamento e atualizações do produto.",
     "languageLabel": "Idioma",
     "copyright": "© {{year}} Agio. Todos os direitos reservados.",
     "links": {

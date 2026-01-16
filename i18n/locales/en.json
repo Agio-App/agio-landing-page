@@ -1,6 +1,7 @@
 {
   "meta": {
-    "title": "Agio | The premium in your memory"
+    "title": "Agio | Local-first AI Second Brain for Notes (PKM)",
+    "description": "Agio is a local-first AI second brain for notes. Auto-formatting, title generation, hashtag extraction, and smart categorization—built for founders and knowledge workers."
   },
   "nav": {
     "features": "Features",
@@ -10,48 +11,48 @@
     "logoAlt": "Agio Logo"
   },
   "hero": {
-    "badge": "Redefining Memory",
-    "titleLine1": "The premium in",
-    "titleLine2": "your memory.",
-    "body": "Where life's finest moments meet intelligent design. Agio redefines how you capture, curate, and relive what truly matters.",
-    "cta": "Join the Waitlist",
-    "subtext": "Be among the first to experience Agio — crafted for those who value moments as much as memories.",
+    "badge": "Local-first Second Brain",
+    "titleLine1": "A second brain that",
+    "titleLine2": "doesn’t become work.",
+    "body": "Built for founders and knowledge workers. Capture notes fast—Agio uses AI to format, title, extract hashtags, and auto-categorize so your system stays organized without maintenance.",
+    "cta": "Get Early Access",
+    "subtext": "Local-first by design. No busywork—just clarity. Join the waitlist for launch access.",
     "scroll": "Scroll",
     "backgroundAlt": "Agio Abstract Background"
   },
   "features": {
-    "headline": "Designed to remember —",
-    "headlineEmphasis": "beautifully.",
-    "body": "Agio isn't another storage app. It's an intuitive memory companion built to organise, visualise, and protect the stories that shape you. Using smart categorisation and elegant design, Agio transforms your digital memories into a seamless, meaningful archive.",
-    "link": "Reserve your spot early",
+    "headline": "Capture once —",
+    "headlineEmphasis": "Agio organizes.",
+    "body": "Most note apps get abandoned when upkeep starts. Agio is an AI second brain that turns messy notes into a clean, searchable knowledge base: auto-formatting, title generation, hashtag extraction, and smart categorization—done instantly.",
+    "link": "Get early access",
     "cards": {
       "intelligent": {
-        "title": "Intelligent Memory Engine",
-        "description": "Your memories, organised automatically. Agio uses advanced recognition technology to tag, group, and surface what matters most — effortlessly."
+        "title": "Zero-maintenance notes",
+        "description": "Write naturally. Agio formats your note, generates a clear title, and extracts hashtags automatically—so you never spend time “cleaning up.”"
       },
       "discovery": {
-        "title": "AI-Powered Discovery",
-        "description": "Rediscover forgotten moments. Agio's AI surfaces connections, recreates context, and helps you relive memories you'd forgotten you had."
+        "title": "Find anything, fast",
+        "description": "Search your second brain and resurface key context when you need it—decisions, ideas, and next steps across projects."
       },
       "crafted": {
-        "title": "Crafted for Every Moment",
-        "description": "From candid shots to curated collections, Agio adapts to how you remember. Beautiful visualisations and intuitive tools make managing memories effortless."
+        "title": "Local-first, built for focus",
+        "description": "Your knowledge stays on your device by default—fast, private, and always available. (Links and video capture via extension coming.)"
       }
     }
   },
   "vision": {
     "label": "Vision",
-    "headline": "Preserve the moments that matter most.",
-    "body": "Agio is designed to be a living archive for your most meaningful memories. From milestones to quiet in-between moments, our vision is to make remembering feel effortless, secure, and beautifully human."
+    "headline": "A second brain you’ll still use in six months.",
+    "body": "Agio is designed to remove the maintenance tax that kills most PKM systems. Capture quickly, stay organized automatically, and keep your knowledge useful over time—without constant tending."
   },
   "footer": {
+    "headlineLine1": "Get early access to",
+    "headlineLine2": "a local-first second brain.",
+    "body": "Join founders and knowledge workers who want AI organization without the maintenance overhead.",
+    "cta": "Get Early Access",
+    "disclaimer": "No spam. Just launch access and product updates.",
     "iconAlt": "Agio Icon",
-    "headlineLine1": "A better way to remember",
-    "headlineLine2": "is coming.",
-    "body": "Join others who value simplicity, privacy, and beauty in their digital lives.",
     "emailPlaceholder": "Enter your email",
-    "cta": "Join the Waitlist",
-    "disclaimer": "No spam. Only early access and meaningful updates.",
     "languageLabel": "Language",
     "copyright": "© {{year}} Agio. All rights reserved.",
     "links": {
