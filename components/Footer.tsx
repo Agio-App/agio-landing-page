@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
 
   const currentLocale =
     normalizeLocale(lng) ?? normalizeLocale(i18n.resolvedLanguage ?? i18n.language) ?? 'en';
-  const thankYouAction = buildLocalePath(currentLocale, '/thank-you/');
+  const thankYouAction = '/thank-you/';
 
   const handleLanguageChange = (value: string) => {
     const nextLocale = normalizeLocale(value) ?? 'en';
