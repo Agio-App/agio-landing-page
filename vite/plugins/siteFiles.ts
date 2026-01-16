@@ -83,6 +83,20 @@ export const siteFilesPlugin = ({ siteUrl }: SiteFilesOptions): Plugin => {
         fs.writeFile(path.join(targetDir, 'robots.txt'), robotsTxt),
         fs.writeFile(path.join(targetDir, 'llms.txt'), llmsTxt)
       ]);
+
+      const indexPath = path.join(targetDir, 'index.html');
+      const indexHtml = await fs.readFile(indexPath, 'utf8');
+      const thankYouTargets = [
+        path.join(targetDir, 'thank-you'),
+        ...canonicalLocales.map((locale) => path.join(targetDir, locale, 'thank-you'))
+      ];
+
+      await Promise.all(
+        thankYouTargets.map(async (dir) => {
+          await fs.mkdir(dir, { recursive: true });
+          await fs.writeFile(path.join(dir, 'index.html'), indexHtml);
+        })
+      );
     }
   };
 };

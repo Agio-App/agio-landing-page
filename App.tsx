@@ -123,10 +123,10 @@ const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<RootRedirect />} />
-      <Route path="/thank-you" element={<LegacyThankYouRedirect />} />
+      <Route path="/thank-you/*" element={<LegacyThankYouRedirect />} />
       <Route path="/:lng" element={<LocaleShell />}>
         <Route index element={<LandingPage />} />
-        <Route path="thank-you" element={<ThankYou />} />
+        <Route path="thank-you/*" element={<ThankYou />} />
       </Route>
       <Route path="*" element={<CatchAllRedirect />} />
     </Routes>
