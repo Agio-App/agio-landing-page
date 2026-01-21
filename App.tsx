@@ -11,6 +11,7 @@ import ThankYou from './pages/ThankYou';
 import SeoLinks from './components/SeoLinks';
 import {
   buildLocalePath,
+  defaultLocale,
   getBestMatchLocale,
   getPathWithoutLocale,
   normalizeLocale,
@@ -46,9 +47,22 @@ const LandingPage: React.FC = () => {
   );
 };
 
-const RootRedirect: React.FC = () => {
-  const bestMatch = getBestMatchLocale();
-  return <Navigate replace to={buildLocalePath(bestMatch, '/')} />;
+const RootLocaleShell: React.FC = () => {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    // Ensure English locale is set for root path
+    if ((i18n.resolvedLanguage ?? i18n.language).toLowerCase() !== defaultLocale.toLowerCase()) {
+      void i18n.changeLanguage(defaultLocale);
+    }
+  }, [i18n]);
+
+  return (
+    <>
+      <SeoLinks />
+      <LandingPage />
+    </>
+  );
 };
 
 const LegacyThankYouRedirect: React.FC = () => {
@@ -122,7 +136,7 @@ const LocaleShell: React.FC = () => {
 const App: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<RootRedirect />} />
+      <Route path="/" element={<RootLocaleShell />} />
       <Route path="/thank-you/*" element={<LegacyThankYouRedirect />} />
       <Route path="/:lng" element={<LocaleShell />}>
         <Route index element={<LandingPage />} />

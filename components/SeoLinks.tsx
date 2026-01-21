@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import {
   buildLocalePath,
   canonicalLocales,
+  defaultLocale,
   getPathWithoutLocale,
   normalizeLocale
 } from '../i18n/url';
@@ -15,16 +16,25 @@ const SeoLinks: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    if (!locale || typeof document === 'undefined' || typeof window === 'undefined') {
+    if (typeof document === 'undefined' || typeof window === 'undefined') {
       return;
     }
 
+    // For root path (no locale), use default locale (English)
+    const effectiveLocale = locale ?? defaultLocale;
     const origin = window.location.origin;
-    const restPath = getPathWithoutLocale(location.pathname);
-    const canonicalHref = `${origin}${buildLocalePath(locale, restPath, location.search)}`;
+    
+    // For root path, restPath is the current pathname; otherwise get path without locale
+    const restPath = locale ? getPathWithoutLocale(location.pathname) : location.pathname;
+    
+    // For root path, canonical is just the root; otherwise use locale path
+    const canonicalHref = locale 
+      ? `${origin}${buildLocalePath(effectiveLocale, restPath, location.search)}`
+      : `${origin}${restPath}${location.search}`;
+    
     const head = document.head;
     const ogImageUrl = `${origin}/web-app-manifest-512x512.png`;
-    const ogLocale = locale.replace('-', '_');
+    const ogLocale = effectiveLocale.replace('-', '_');
     const siteName = 'Agio';
 
     // ----- Canonical + hreflang -----
@@ -40,7 +50,11 @@ const SeoLinks: React.FC = () => {
       const alternateLink = document.createElement('link');
       alternateLink.rel = 'alternate';
       alternateLink.hreflang = supportedLocale;
-      alternateLink.href = `${origin}${buildLocalePath(supportedLocale, restPath, location.search)}`;
+      // For root path, English points to /, others to /{locale}/
+      const alternatePath = supportedLocale === defaultLocale && !locale
+        ? restPath
+        : buildLocalePath(supportedLocale, restPath, location.search);
+      alternateLink.href = `${origin}${alternatePath}`;
       alternateLink.setAttribute('data-i18n-seo', 'true');
       head.appendChild(alternateLink);
     });
