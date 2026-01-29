@@ -9,6 +9,7 @@ import { Navigate, Outlet, Route, Routes, useLocation, useNavigate, useParams } 
 import { useTranslation } from 'react-i18next';
 import ThankYou from './pages/ThankYou';
 import SeoLinks from './components/SeoLinks';
+import { ThemeProvider } from './components/ThemeProvider';
 import {
   buildLocalePath,
   defaultLocale,
@@ -135,15 +136,17 @@ const LocaleShell: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <Routes>
-      <Route path="/" element={<RootLocaleShell />} />
-      <Route path="/thank-you/*" element={<LegacyThankYouRedirect />} />
-      <Route path="/:lng" element={<LocaleShell />}>
-        <Route index element={<LandingPage />} />
-        <Route path="thank-you/*" element={<ThankYou />} />
-      </Route>
-      <Route path="*" element={<CatchAllRedirect />} />
-    </Routes>
+    <ThemeProvider>
+      <Routes>
+        <Route path="/" element={<RootLocaleShell />} />
+        <Route path="/thank-you/*" element={<LegacyThankYouRedirect />} />
+        <Route path="/:lng" element={<LocaleShell />}>
+          <Route index element={<LandingPage />} />
+          <Route path="thank-you/*" element={<ThankYou />} />
+        </Route>
+        <Route path="*" element={<CatchAllRedirect />} />
+      </Routes>
+    </ThemeProvider>
   );
 };
 
