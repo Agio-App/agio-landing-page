@@ -1,10 +1,11 @@
 {
   "meta": {
-    "title": "Agio | Local-first AI Second Brain for Notes (PKM)",
-    "description": "Agio is a local-first AI second brain for notes. Auto-formatting, title generation, hashtag extraction, and smart categorization—built for founders and knowledge workers."
+    "title": "Agio | Local-first second brain for notes",
+    "description": "Agio is a local-first second brain. Capture from anywhere. AI adds titles, links people and projects, and suggests tags. Search by meaning, not just keywords. Built for founders and knowledge workers."
   },
   "nav": {
     "features": "Features",
+    "howItWorks": "How it works",
     "vision": "Vision",
     "openMenu": "Open navigation menu",
     "closeMenu": "Close navigation menu",
@@ -13,43 +14,89 @@
   "hero": {
     "badge": "Local-first Second Brain",
     "titleLine1": "A second brain that",
-    "titleLine2": "doesn’t become work.",
-    "body": "Built for founders and knowledge workers. Capture notes fast—Agio uses AI to format, title, extract hashtags, and auto-categorize so your system stays organized without maintenance.",
-    "cta": "Get Early Access",
-    "subtext": "Local-first by design. No busywork—just clarity. Join the waitlist for launch access.",
+    "titleLine2": "doesn't become work.",
+    "body": "For founders and knowledge workers who capture a lot and drop note systems when upkeep piles up. Agio keeps notes organized: clear titles, linked people and projects, and search by meaning. No tagging yourself.",
+    "cta": "Get early access",
+    "subtext": "Local-first by design. Join the waitlist for launch access.",
     "scroll": "Scroll",
-    "backgroundAlt": "Agio Abstract Background"
+    "backgroundAlt": "Agio abstract background"
   },
   "features": {
-    "headline": "Capture once —",
+    "headline": "Capture once.",
     "headlineEmphasis": "Agio organizes.",
-    "body": "Most note apps get abandoned when upkeep starts. Agio is an AI second brain that turns messy notes into a clean, searchable knowledge base: auto-formatting, title generation, hashtag extraction, and smart categorization—done instantly.",
+    "body": "Most note apps get abandoned when upkeep starts. Agio turns messy notes into a clean, searchable base. It generates titles, links people and projects, and suggests tags so you never spend time cleaning up.",
     "link": "Get early access",
     "cards": {
       "intelligent": {
         "title": "Zero-maintenance notes",
-        "description": "Write naturally. Agio formats your note, generates a clear title, and extracts hashtags automatically—so you never spend time “cleaning up.”"
+        "description": "Write naturally. Agio formats your note, generates a clear title, and extracts tags automatically. You stop spending time cleaning up."
       },
       "discovery": {
         "title": "Find anything, fast",
-        "description": "Search your second brain and resurface key context when you need it—decisions, ideas, and next steps across projects."
+        "description": "Search by meaning, not just keywords. Resurface decisions, ideas, and next steps across projects when you need them."
       },
       "crafted": {
         "title": "Local-first, built for focus",
-        "description": "Your knowledge stays on your device by default—fast, private, and always available. (Links and video capture via extension coming.)"
+        "description": "Your knowledge stays on your device by default. Fast, private, and always available. Links and video capture via extension coming."
       }
     }
   },
+  "valueProp": {
+    "headline": "Capture once.",
+    "headlineEmphasis": "Agio organizes.",
+    "body": "Most note apps get abandoned when upkeep starts. Agio turns messy notes into a clean, searchable base. It generates titles, links people and projects, and suggests tags so you never spend time cleaning up.",
+    "link": "Get early access",
+    "items": [
+      {
+        "title": "Zero-maintenance notes",
+        "description": "Write naturally. Agio formats your note, generates a clear title, and extracts tags automatically. You stop spending time cleaning up."
+      },
+      {
+        "title": "Find anything, fast",
+        "description": "Search by meaning, not just keywords. Resurface decisions, ideas, and next steps across projects when you need them."
+      },
+      {
+        "title": "Local-first, built for focus",
+        "description": "Your knowledge stays on your device by default. Fast, private, and always available. Links and video capture via extension coming."
+      }
+    ],
+    "graphicAlt": "Agio value proposition illustration"
+  },
+  "productPillars": {
+    "headline": "Your second brain, automated.",
+    "body": "Capture from anywhere. Agio organizes. Find by meaning.",
+    "pillars": [
+      {
+        "title": "Capture",
+        "description": "Voice, notes, screenshots, email, and imports. One place for what you save."
+      },
+      {
+        "title": "Organize",
+        "description": "AI generates titles and links people, projects, and topics. Tags appear without you tagging."
+      },
+      {
+        "title": "Find",
+        "description": "Semantic search over your memories. Get the right context when you need it."
+      }
+    ],
+    "graphicAlt": "How Agio works"
+  },
   "vision": {
     "label": "Vision",
-    "headline": "A second brain you’ll still use in six months.",
-    "body": "Agio is designed to remove the maintenance tax that kills most PKM systems. Capture quickly, stay organized automatically, and keep your knowledge useful over time—without constant tending."
+    "headline": "A second brain you'll still use in six months.",
+    "body": "Agio removes the maintenance tax that kills most PKM systems. Capture quickly, stay organized automatically, and keep your knowledge useful over time.",
+    "trustPoints": [
+      "Local-first and private. Your data stays on your device.",
+      "No manual taxonomy. Agio suggests titles, entities, and tags.",
+      "Works over time. No constant tending to stay useful."
+    ],
+    "graphicAlt": "Agio on device"
   },
   "footer": {
     "headlineLine1": "Get early access to",
     "headlineLine2": "a local-first second brain.",
     "body": "Join founders and knowledge workers who want AI organization without the maintenance overhead.",
-    "cta": "Get Early Access",
+    "cta": "Get early access",
     "disclaimer": "No spam. Just launch access and product updates.",
     "iconAlt": "Agio Icon",
     "emailPlaceholder": "Enter your email",

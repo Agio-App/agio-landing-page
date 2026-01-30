@@ -15,17 +15,17 @@ const Navbar: React.FC = () => {
   const navTextClass = isDark
     ? isScrolled
       ? 'text-white'
-      : 'text-black'
+      : 'text-white'
     : 'text-text-primary';
   const navLinkClass = isDark
     ? isScrolled
       ? 'text-white hover:text-accent'
-      : 'text-black hover:text-text-primary'
+      : 'text-white hover:text-text-primary'
     : 'text-text-secondary hover:text-accent';
   const navButtonClass = isDark
     ? isScrolled
       ? 'text-white border-white/30 hover:text-accent hover:border-accent'
-      : 'text-black border-black/30 hover:text-text-primary hover:border-text-primary'
+      : 'text-white border-black/30 hover:text-text-primary hover:border-text-primary'
     : 'text-text-secondary border-border hover:text-accent hover:border-accent';
 
   useEffect(() => {
@@ -105,10 +105,16 @@ const Navbar: React.FC = () => {
 
         <div className="hidden md:flex items-center gap-8">
           <a
-            href="#features"
+            href="#valueProp"
             className={`text-sm font-medium transition-colors duration-300 ${navLinkClass}`}
           >
             {t('nav.features')}
+          </a>
+          <a
+            href="#productPillars"
+            className={`text-sm font-medium transition-colors duration-300 ${navLinkClass}`}
+          >
+            {t('nav.howItWorks')}
           </a>
           <a
             href="#vision"
@@ -182,11 +188,18 @@ const Navbar: React.FC = () => {
               onClick={(event) => event.stopPropagation()}
             >
               <a
-                href="#features"
+                href="#valueProp"
                 className="text-2xl font-medium hover:text-accent transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {t('nav.features')}
+              </a>
+              <a
+                href="#productPillars"
+                className="text-2xl font-medium hover:text-accent transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {t('nav.howItWorks')}
               </a>
               <a
                 href="#vision"

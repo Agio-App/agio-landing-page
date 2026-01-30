@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import VideoPlayer from './components/VideoPlayer';
 import Features from './components/Features';
+import ProductPillars from './components/ProductPillars';
 import Vision from './components/Vision';
 import Footer from './components/Footer';
 import { motion, useScroll, useSpring } from 'framer-motion';
@@ -28,7 +30,7 @@ const LandingPage: React.FC = () => {
   });
 
   return (
-    <div className="bg-charcoal min-h-screen selection:bg-mint selection:text-charcoal relative">
+    <div className="min-h-screen selection:bg-mint selection:text-charcoal relative">
       {/* Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-mint origin-left z-50"
@@ -39,7 +41,9 @@ const LandingPage: React.FC = () => {
       
       <main>
         <Hero />
+        <VideoPlayer />
         <Features />
+        <ProductPillars />
         <Vision />
       </main>
 

@@ -1,10 +1,11 @@
 {
   "meta": {
-    "title": "Agio | Segundo cerebro con IA local-first para notas (PKM)",
-    "description": "Agio es un segundo cerebro con IA local-first para notas. Autoformato, generación de títulos, extracción de hashtags y categorización inteligente—hecho para fundadores y profesionales del conocimiento."
+    "title": "Agio | Segundo cerebro local-first para notas",
+    "description": "Agio es un segundo cerebro local-first. Captura desde cualquier lugar. La IA añade títulos, enlaza personas y proyectos y sugiere etiquetas. Busca por significado, no solo por palabras clave. Creado para fundadores y profesionales del conocimiento."
   },
   "nav": {
     "features": "Funciones",
+    "howItWorks": "Cómo funciona",
     "vision": "Visión",
     "openMenu": "Abrir menú de navegación",
     "closeMenu": "Cerrar menú de navegación",
@@ -14,45 +15,91 @@
     "badge": "Segundo cerebro local-first",
     "titleLine1": "Un segundo cerebro que",
     "titleLine2": "no se convierte en trabajo.",
-    "body": "Hecho para fundadores y profesionales del conocimiento. Captura notas rápido—Agio usa IA para dar formato, poner títulos, extraer hashtags y categorizar automáticamente para que tu sistema se mantenga organizado sin mantenimiento.",
+    "body": "Para fundadores y profesionales del conocimiento que capturan mucho y dejan los sistemas de notas cuando el mantenimiento se acumula. Agio mantiene las notas organizadas: títulos claros, personas y proyectos enlazados, y búsqueda por significado. Sin etiquetar tú mismo.",
     "cta": "Obtén acceso anticipado",
-    "subtext": "Local-first por diseño. Sin trabajo extra—solo claridad. Únete a la lista de espera para acceder en el lanzamiento.",
+    "subtext": "Local-first por diseño. Únete a la lista de espera para acceso en el lanzamiento.",
     "scroll": "Desplazar",
     "backgroundAlt": "Fondo abstracto de Agio"
   },
   "features": {
-    "headline": "Captura una vez —",
+    "headline": "Captura una vez.",
     "headlineEmphasis": "Agio organiza.",
-    "body": "La mayoría de las apps de notas se abandonan cuando empieza el mantenimiento. Agio es un segundo cerebro con IA que convierte notas desordenadas en una base de conocimiento limpia y buscable: autoformato, generación de títulos, extracción de hashtags y categorización inteligente—al instante.",
+    "body": "La mayoría de las apps de notas se abandonan cuando empieza el mantenimiento. Agio convierte notas desordenadas en una base limpia y buscable. Genera títulos, enlaza personas y proyectos y sugiere etiquetas para que nunca pierdas tiempo limpiando.",
     "link": "Obtén acceso anticipado",
     "cards": {
       "intelligent": {
         "title": "Notas sin mantenimiento",
-        "description": "Escribe como te salga natural. Agio da formato a tu nota, genera un título claro y extrae hashtags automáticamente—para que nunca pierdas tiempo “limpiando”."
+        "description": "Escribe de forma natural. Agio da formato a tu nota, genera un título claro y extrae etiquetas automáticamente. Dejas de perder tiempo limpiando."
       },
       "discovery": {
-        "title": "Encuentra cualquier cosa, rápido",
-        "description": "Busca en tu segundo cerebro y recupera el contexto cuando lo necesites—decisiones, ideas y próximos pasos en distintos proyectos."
+        "title": "Encuentra todo, rápido",
+        "description": "Busca por significado, no solo por palabras clave. Recupera decisiones, ideas y próximos pasos entre proyectos cuando los necesites."
       },
       "crafted": {
         "title": "Local-first, hecho para concentrarte",
-        "description": "Tu conocimiento se queda en tu dispositivo por defecto—rápido, privado y siempre disponible. (Enlaces y captura de video vía extensión, próximamente.)"
+        "description": "Tu conocimiento se queda en tu dispositivo por defecto. Rápido, privado y siempre disponible. Enlaces y captura de video vía extensión, próximamente."
       }
     }
+  },
+  "valueProp": {
+    "headline": "Captura una vez.",
+    "headlineEmphasis": "Agio organiza.",
+    "body": "La mayoría de las apps de notas se abandonan cuando empieza el mantenimiento. Agio convierte notas desordenadas en una base limpia y buscable. Genera títulos, enlaza personas y proyectos y sugiere etiquetas para que nunca pierdas tiempo limpiando.",
+    "link": "Obtén acceso anticipado",
+    "items": [
+      {
+        "title": "Notas sin mantenimiento",
+        "description": "Escribe de forma natural. Agio da formato a tu nota, genera un título claro y extrae etiquetas automáticamente. Dejas de perder tiempo limpiando."
+      },
+      {
+        "title": "Encuentra todo, rápido",
+        "description": "Busca por significado, no solo por palabras clave. Recupera decisiones, ideas y próximos pasos entre proyectos cuando los necesites."
+      },
+      {
+        "title": "Local-first, hecho para concentrarte",
+        "description": "Tu conocimiento se queda en tu dispositivo por defecto. Rápido, privado y siempre disponible. Enlaces y captura de video vía extensión, próximamente."
+      }
+    ],
+    "graphicAlt": "Ilustración de la propuesta de valor de Agio"
+  },
+  "productPillars": {
+    "headline": "Tu segundo cerebro, automatizado.",
+    "body": "Captura desde cualquier lugar. Agio organiza. Encuentra por significado.",
+    "pillars": [
+      {
+        "title": "Captura",
+        "description": "Voz, notas, capturas de pantalla, correo e importaciones. Un solo lugar para lo que guardas."
+      },
+      {
+        "title": "Organiza",
+        "description": "La IA genera títulos y enlaza personas, proyectos y temas. Las etiquetas aparecen sin que tengas que etiquetar."
+      },
+      {
+        "title": "Encuentra",
+        "description": "Búsqueda semántica en tus recuerdos. Obtén el contexto correcto cuando lo necesites."
+      }
+    ],
+    "graphicAlt": "Cómo funciona Agio"
   },
   "vision": {
     "label": "Visión",
     "headline": "Un segundo cerebro que seguirás usando en seis meses.",
-    "body": "Agio está diseñado para eliminar el “impuesto de mantenimiento” que mata la mayoría de los sistemas PKM. Captura rápido, mantente organizado automáticamente y conserva tu conocimiento útil con el tiempo—sin estar cuidándolo todo el día."
+    "body": "Agio elimina el impuesto de mantenimiento que mata a la mayoría de los sistemas PKM. Captura rápido, mantente organizado automáticamente y conserva tu conocimiento útil con el tiempo.",
+    "trustPoints": [
+      "Local-first y privado. Tus datos se quedan en tu dispositivo.",
+      "Sin taxonomía manual. Agio sugiere títulos, entidades y etiquetas.",
+      "Funciona con el tiempo. Sin mantenimiento constante para que siga siendo útil."
+    ],
+    "graphicAlt": "Agio en el dispositivo"
   },
   "footer": {
-    "iconAlt": "Ícono de Agio",
     "headlineLine1": "Obtén acceso anticipado a",
     "headlineLine2": "un segundo cerebro local-first.",
     "body": "Únete a fundadores y profesionales del conocimiento que quieren organización con IA sin el costo del mantenimiento.",
-    "emailPlaceholder": "Ingresa tu email",
     "cta": "Obtén acceso anticipado",
     "disclaimer": "Sin spam. Solo acceso en el lanzamiento y novedades del producto.",
+    "iconAlt": "Ícono de Agio",
+    "emailPlaceholder": "Ingresa tu email",
     "languageLabel": "Idioma",
     "copyright": "© {{year}} Agio. Todos los derechos reservados.",
     "links": {

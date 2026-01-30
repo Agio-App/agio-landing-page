@@ -1,10 +1,11 @@
 {
   "meta": {
-    "title": "Agio | Local-first KI-Second-Brain für Notizen (PKM)",
-    "description": "Agio ist ein local-first KI-Second-Brain für Notizen. Auto-Formatierung, Titelerstellung, Hashtag-Extraktion und smarte Kategorisierung – gebaut für Gründer und Wissensarbeiter."
+    "title": "Agio | Local-first Second Brain für Notizen",
+    "description": "Agio ist ein local-first Second Brain. Erfasse von überall. KI ergänzt Titel, verknüpft Personen und Projekte und schlägt Tags vor. Suche nach Bedeutung, nicht nur nach Keywords. Für Gründer und Wissensarbeiter."
   },
   "nav": {
     "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
     "vision": "Vision",
     "openMenu": "Navigationsmenü öffnen",
     "closeMenu": "Navigationsmenü schließen",
@@ -14,45 +15,91 @@
     "badge": "Local-first Second Brain",
     "titleLine1": "Ein Second Brain, das",
     "titleLine2": "nicht zur Arbeit wird.",
-    "body": "Für Gründer und Wissensarbeiter. Notizen schnell festhalten – Agio nutzt KI, um zu formatieren, Titel zu erstellen, Hashtags zu extrahieren und automatisch zu kategorisieren, damit dein System ohne Pflege organisiert bleibt.",
+    "body": "Für Gründer und Wissensarbeiter, die viel erfassen und Notizsysteme fallen lassen, sobald der Aufwand steigt. Agio hält Notizen organisiert: klare Titel, verlinkte Personen und Projekte und Suche nach Bedeutung. Kein Tagging von Hand.",
     "cta": "Frühzugang sichern",
-    "subtext": "Local-first by design. Kein Busywork – nur Klarheit. Trag dich für Launch-Zugang auf die Warteliste ein.",
+    "subtext": "Local-first by design. Trag dich für Launch-Zugang auf die Warteliste ein.",
     "scroll": "Scrollen",
-    "backgroundAlt": "Agio abstrakter Hintergrund"
+    "backgroundAlt": "Abstrakter Agio-Hintergrund"
   },
   "features": {
-    "headline": "Einmal erfassen —",
-    "headlineEmphasis": "Agio ordnet.",
-    "body": "Die meisten Notiz-Apps werden aufgegeben, sobald die Pflege beginnt. Agio ist ein KI-Second-Brain, das chaotische Notizen in eine saubere, durchsuchbare Wissensbasis verwandelt: Auto-Formatierung, Titelerstellung, Hashtag-Extraktion und smarte Kategorisierung – sofort erledigt.",
+    "headline": "Einmal erfassen.",
+    "headlineEmphasis": "Agio organisiert.",
+    "body": "Die meisten Notiz-Apps werden aufgegeben, sobald die Pflege beginnt. Agio macht aus chaotischen Notizen eine saubere, durchsuchbare Basis. Es erzeugt Titel, verlinkt Personen und Projekte und schlägt Tags vor, damit du nie Zeit mit Aufräumen verbringst.",
     "link": "Frühzugang sichern",
     "cards": {
       "intelligent": {
         "title": "Notizen ohne Wartung",
-        "description": "Schreib, wie du willst. Agio formatiert deine Notiz, erzeugt einen klaren Titel und extrahiert Hashtags automatisch – damit du nie Zeit mit „Aufräumen“ verbringst."
+        "description": "Schreib natürlich. Agio formatiert deine Notiz, erzeugt einen klaren Titel und extrahiert Tags automatisch. Du verbringst keine Zeit mehr mit Aufräumen."
       },
       "discovery": {
-        "title": "Alles finden – sofort",
-        "description": "Durchsuche dein Second Brain und hol dir Kontext zurück, wenn du ihn brauchst – Entscheidungen, Ideen und nächste Schritte über Projekte hinweg."
+        "title": "Alles finden, sofort",
+        "description": "Suche nach Bedeutung, nicht nur nach Keywords. Hole Entscheidungen, Ideen und nächste Schritte projektübergreifend zurück, wenn du sie brauchst."
       },
       "crafted": {
         "title": "Local-first, gebaut für Fokus",
-        "description": "Dein Wissen bleibt standardmäßig auf deinem Gerät – schnell, privat und jederzeit verfügbar. (Links und Video-Capture via Extension kommen.)"
+        "description": "Dein Wissen bleibt standardmäßig auf deinem Gerät. Schnell, privat und immer verfügbar. Links und Video-Capture per Extension kommen."
       }
     }
+  },
+  "valueProp": {
+    "headline": "Einmal erfassen.",
+    "headlineEmphasis": "Agio organisiert.",
+    "body": "Die meisten Notiz-Apps werden aufgegeben, sobald die Pflege beginnt. Agio macht aus chaotischen Notizen eine saubere, durchsuchbare Basis. Es erzeugt Titel, verlinkt Personen und Projekte und schlägt Tags vor, damit du nie Zeit mit Aufräumen verbringst.",
+    "link": "Frühzugang sichern",
+    "items": [
+      {
+        "title": "Notizen ohne Wartung",
+        "description": "Schreib natürlich. Agio formatiert deine Notiz, erzeugt einen klaren Titel und extrahiert Tags automatisch. Du verbringst keine Zeit mehr mit Aufräumen."
+      },
+      {
+        "title": "Alles finden, sofort",
+        "description": "Suche nach Bedeutung, nicht nur nach Keywords. Hole Entscheidungen, Ideen und nächste Schritte projektübergreifend zurück, wenn du sie brauchst."
+      },
+      {
+        "title": "Local-first, gebaut für Fokus",
+        "description": "Dein Wissen bleibt standardmäßig auf deinem Gerät. Schnell, privat und immer verfügbar. Links und Video-Capture per Extension kommen."
+      }
+    ],
+    "graphicAlt": "Agio-Wertversprechen-Illustration"
+  },
+  "productPillars": {
+    "headline": "Dein Second Brain, automatisiert.",
+    "body": "Erfasse von überall. Agio organisiert. Finde nach Bedeutung.",
+    "pillars": [
+      {
+        "title": "Erfassen",
+        "description": "Sprache, Notizen, Screenshots, E-Mail und Imports. Ein Ort für alles, was du festhältst."
+      },
+      {
+        "title": "Organisieren",
+        "description": "KI erzeugt Titel und verlinkt Personen, Projekte und Themen. Tags erscheinen ohne dass du taggst."
+      },
+      {
+        "title": "Finden",
+        "description": "Semantische Suche über deine Erinnerungen. Den richtigen Kontext genau dann, wenn du ihn brauchst."
+      }
+    ],
+    "graphicAlt": "So funktioniert Agio"
   },
   "vision": {
     "label": "Vision",
     "headline": "Ein Second Brain, das du in sechs Monaten noch nutzt.",
-    "body": "Agio nimmt dir den Wartungsaufwand, an dem die meisten PKM-Systeme scheitern. Schnell erfassen, automatisch organisiert bleiben und Wissen über Zeit nutzbar halten – ohne ständiges Pflegen."
+    "body": "Agio nimmt dir den Pflegeaufwand, an dem die meisten PKM-Systeme scheitern. Schnell erfassen, automatisch organisiert bleiben und dein Wissen über Zeit nützlich halten.",
+    "trustPoints": [
+      "Local-first und privat. Deine Daten bleiben auf deinem Gerät.",
+      "Keine manuelle Taxonomie. Agio schlägt Titel, Entitäten und Tags vor.",
+      "Funktioniert über Zeit. Kein ständiges Pflegen, um nützlich zu bleiben."
+    ],
+    "graphicAlt": "Agio auf dem Gerät"
   },
   "footer": {
-    "iconAlt": "Agio-Symbol",
     "headlineLine1": "Hol dir Frühzugang zu",
     "headlineLine2": "einem local-first Second Brain.",
     "body": "Schließe dich Gründer:innen und Wissensarbeiter:innen an, die KI-Organisation ohne Wartungsaufwand wollen.",
-    "emailPlaceholder": "E-Mail eingeben",
     "cta": "Frühzugang sichern",
     "disclaimer": "Kein Spam. Nur Launch-Zugang und Produkt-Updates.",
+    "iconAlt": "Agio-Icon",
+    "emailPlaceholder": "E-Mail eingeben",
     "languageLabel": "Sprache",
     "copyright": "© {{year}} Agio. Alle Rechte vorbehalten.",
     "links": {

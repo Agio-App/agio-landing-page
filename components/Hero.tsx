@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-page text-text-primary">
-      {theme === 'dark' && (
+      {/* {theme === 'dark' && (
         <div className="absolute inset-0 z-0">
           <img 
             src={AgioHeroBg} 
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/40 to-transparent opacity-90"></div>
         </div>
-      )}
+      )} */}
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center">
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6"
+            className="mb-6 pt-2 md:pt-0"
         >
              <span className="inline-block py-1 px-3 rounded-full bg-surface border border-border text-xs font-medium tracking-wider text-text-secondary uppercase mb-4 shadow-[0_4px_20px_rgba(0,0,0,0.12)]">
                 {t('hero.badge')}
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl text-text-primary leading-[1.1] mb-6 tracking-tight"
+          className="font-serif text-3xl md:text-5xl lg:text-6xl text-text-primary leading-[1.1] mb-6 tracking-tight"
         >
           {t('hero.titleLine1')} <br />
           <span className="italic text-accent">{t('hero.titleLine2')}</span>
