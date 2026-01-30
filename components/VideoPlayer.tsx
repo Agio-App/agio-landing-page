@@ -40,7 +40,7 @@ const VideoPlayer: React.FC = () => {
         {showOverlay && (
           <button
             type="button"
-            className="group absolute left-1/2 -translate-x-1/2 bottom-[50px] flex items-center gap-3 px-8 py-4 bg-cta-bg text-cta-text rounded-full font-medium text-lg transition-all duration-300 hover:bg-cta-hover hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
+            className="nowrap group absolute left-1/2 -translate-x-1/2 md:bottom-[50px] bottom-[20px] flex items-center gap-3 px-4 md:px-8 py-4 bg-cta-bg text-cta-text rounded-full font-medium text-lg transition-all duration-300 hover:bg-cta-hover hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
             onClick={handlePlayFromStart}
             aria-label={t('videoPlayer.watchVideo')}
           >
