@@ -92,6 +92,9 @@
     ],
     "graphicAlt": "デバイス上のAgio"
   },
+  "videoPlayer": {
+    "watchVideo": "動画を再生"
+  },
   "footer": {
     "headlineLine1": "ローカルファーストの",
     "headlineLine2": "セカンドブレインを先行体験。",

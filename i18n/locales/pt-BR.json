@@ -92,6 +92,9 @@
     ],
     "graphicAlt": "Agio no dispositivo"
   },
+  "videoPlayer": {
+    "watchVideo": "Assistir ao vídeo"
+  },
   "footer": {
     "headlineLine1": "Garanta acesso antecipado a",
     "headlineLine2": "um segundo cérebro local-first.",

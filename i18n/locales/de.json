@@ -92,6 +92,9 @@
     ],
     "graphicAlt": "Agio auf dem Gerät"
   },
+  "videoPlayer": {
+    "watchVideo": "Video abspielen"
+  },
   "footer": {
     "headlineLine1": "Hol dir Frühzugang zu",
     "headlineLine2": "einem local-first Second Brain.",

@@ -92,6 +92,9 @@
     ],
     "graphicAlt": "Agio on device"
   },
+  "videoPlayer": {
+    "watchVideo": "Watch video"
+  },
   "footer": {
     "headlineLine1": "Get early access to",
     "headlineLine2": "a local-first second brain.",

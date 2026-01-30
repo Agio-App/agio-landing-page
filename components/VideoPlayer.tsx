@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Play } from 'lucide-react';
 
 const VideoPlayer: React.FC = () => {
+  const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [controlsEnabled, setControlsEnabled] = useState(false);
   const [showOverlay, setShowOverlay] = useState(true);
@@ -40,10 +42,10 @@ const VideoPlayer: React.FC = () => {
             type="button"
             className="group absolute left-1/2 -translate-x-1/2 bottom-[50px] flex items-center gap-3 px-8 py-4 bg-cta-bg text-cta-text rounded-full font-medium text-lg transition-all duration-300 hover:bg-cta-hover hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
             onClick={handlePlayFromStart}
-            aria-label="Watch video"
+            aria-label={t('videoPlayer.watchVideo')}
           >
             <Play className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
-            Watch video
+            {t('videoPlayer.watchVideo')}
           </button>
         )}
       </div>

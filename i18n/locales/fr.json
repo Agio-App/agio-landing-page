@@ -92,6 +92,9 @@
     ],
     "graphicAlt": "Agio sur l’appareil"
   },
+  "videoPlayer": {
+    "watchVideo": "Regarder la vidéo"
+  },
   "footer": {
     "headlineLine1": "Accède en avant-première à",
     "headlineLine2": "un second cerveau local-first.",

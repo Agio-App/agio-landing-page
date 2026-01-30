@@ -92,6 +92,9 @@
     ],
     "graphicAlt": "设备上的 Agio"
   },
+  "videoPlayer": {
+    "watchVideo": "观看视频"
+  },
   "footer": {
     "headlineLine1": "获取抢先体验：",
     "headlineLine2": "本地优先的第二大脑。",
